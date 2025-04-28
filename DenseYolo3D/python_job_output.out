@@ -1,0 +1,146 @@
+Device in use: cuda
+['/home/pcaterino/duke_aux/dataset DUKE training.ods', '/home/pcaterino/duke_aux/BCS-DBT-boxes-train-v2.csv', '/home/pcaterino/duke_aux/SELECTED PATIENTS.ods']
+Beware, it still contains duplicates due to the info on the slices. For a dataframe with unique elements access unique_fl through the class
+Loading cached volumes and info from /home/pcaterino/DenseYolo3D/model_data/cache
+Loaded 170 volumes from cache
+Loading cached volumes and info from /home/pcaterino/DenseYolo3D/model_data/cache
+Loaded 40 volumes from cache
+Pos weight train: 140.05376344086022
+Pos weight val: 121.64
+Sample 1:
+Input shape: torch.Size([1, 32, 896, 640])
+Target shape: torch.Size([7, 2, 7, 5])
+Sample 2:
+Input shape: torch.Size([1, 32, 896, 640])
+Target shape: torch.Size([7, 2, 7, 5])
+Sample 3:
+Input shape: torch.Size([1, 32, 896, 640])
+Target shape: torch.Size([7, 2, 7, 5])
+Batch 1:
+Inputs shape: torch.Size([2, 1, 32, 896, 768])
+Targets shape: torch.Size([2, 7, 2, 7, 6])
+Shapes: [[32, 896, 768], [32, 896, 768]]
+Epoch 1/100
+Train Loss: 103.5586 (Obj: 0.0963,   Loc: 103.4623)
+Val Loss: 74.7192 (Obj: 0.0913,   Loc: 74.6280)
+
+Saved best model with Val Loss: 74.7192
+Epoch 2/100
+Train Loss: 110.6899 (Obj: 0.0957,   Loc: 110.5941)
+Val Loss: 74.9297 (Obj: 0.0914,   Loc: 74.8383)
+
+Epoch 3/100
+Train Loss: 104.5170 (Obj: 0.0951,   Loc: 104.4219)
+Val Loss: 74.2182 (Obj: 0.0945,   Loc: 74.1237)
+
+Epoch 4/100
+Train Loss: 88.0635 (Obj: 0.0977,   Loc: 87.9658)
+Val Loss: 83.5658 (Obj: 0.0912,   Loc: 83.4746)
+
+Epoch 5/100
+Train Loss: 95.8903 (Obj: 0.0954,   Loc: 95.7950)
+Val Loss: 72.4376 (Obj: 0.0925,   Loc: 72.3450)
+
+Saved best model with Val Loss: 72.4376
+Epoch 6/100
+Train Loss: 86.1422 (Obj: 0.0947,   Loc: 86.0475)
+Val Loss: 72.1713 (Obj: 0.0912,   Loc: 72.0801)
+
+Epoch 7/100
+Train Loss: 80.4441 (Obj: 0.0944,   Loc: 80.3496)
+Val Loss: 72.3177 (Obj: 0.0913,   Loc: 72.2264)
+
+Epoch 8/100
+Train Loss: 86.1819 (Obj: 0.0939,   Loc: 86.0880)
+Val Loss: 72.2461 (Obj: 0.0914,   Loc: 72.1546)
+
+Epoch 9/100
+Train Loss: 85.3970 (Obj: 0.0937,   Loc: 85.3033)
+Val Loss: 72.2645 (Obj: 0.0910,   Loc: 72.1734)
+
+Epoch 10/100
+Train Loss: 95.6830 (Obj: 0.0936,   Loc: 95.5894)
+Val Loss: 72.2385 (Obj: 0.0911,   Loc: 72.1474)
+
+Epoch 11/100
+Train Loss: 94.8263 (Obj: 0.0928,   Loc: 94.7336)
+Val Loss: 72.3665 (Obj: 0.0911,   Loc: 72.2754)
+
+Epoch 12/100
+Train Loss: 84.9434 (Obj: 0.0937,   Loc: 84.8497)
+Val Loss: 72.3141 (Obj: 0.0910,   Loc: 72.2231)
+
+Epoch 13/100
+Train Loss: 84.1905 (Obj: 0.0932,   Loc: 84.0973)
+Val Loss: 72.2454 (Obj: 0.0911,   Loc: 72.1543)
+
+Epoch 14/100
+Train Loss: 95.8378 (Obj: 0.0944,   Loc: 95.7434)
+Val Loss: 72.2628 (Obj: 0.0910,   Loc: 72.1718)
+
+Epoch 15/100
+Train Loss: 94.4265 (Obj: 0.0936,   Loc: 94.3329)
+Val Loss: 72.2580 (Obj: 0.0909,   Loc: 72.1670)
+
+Epoch 16/100
+Train Loss: 87.0659 (Obj: 0.0935,   Loc: 86.9724)
+Val Loss: 72.2514 (Obj: 0.0910,   Loc: 72.1604)
+
+Epoch 17/100
+Train Loss: 90.5484 (Obj: 0.0937,   Loc: 90.4547)
+Val Loss: 72.2696 (Obj: 0.0909,   Loc: 72.1787)
+
+Epoch 18/100
+Train Loss: 95.1277 (Obj: 0.0938,   Loc: 95.0338)
+Val Loss: 72.2610 (Obj: 0.0909,   Loc: 72.1701)
+
+Epoch 19/100
+Train Loss: 86.1829 (Obj: 0.0932,   Loc: 86.0897)
+Val Loss: 72.2839 (Obj: 0.0910,   Loc: 72.1928)
+
+Epoch 20/100
+Train Loss: 91.8754 (Obj: 0.0935,   Loc: 91.7819)
+Val Loss: 72.2382 (Obj: 0.0910,   Loc: 72.1472)
+
+Epoch 21/100
+Train Loss: 95.3160 (Obj: 0.0930,   Loc: 95.2230)
+Val Loss: 72.3119 (Obj: 0.0910,   Loc: 72.2209)
+
+Epoch 22/100
+Train Loss: 93.4372 (Obj: 0.0938,   Loc: 93.3434)
+Val Loss: 72.2887 (Obj: 0.0908,   Loc: 72.1979)
+
+Epoch 23/100
+Train Loss: 89.1533 (Obj: 0.0937,   Loc: 89.0595)
+Val Loss: 72.3166 (Obj: 0.0910,   Loc: 72.2256)
+
+Epoch 24/100
+Train Loss: 88.7353 (Obj: 0.0935,   Loc: 88.6418)
+Val Loss: 72.2767 (Obj: 0.0910,   Loc: 72.1857)
+
+Epoch 25/100
+Train Loss: 90.8680 (Obj: 0.0932,   Loc: 90.7748)
+Val Loss: 72.2332 (Obj: 0.0911,   Loc: 72.1421)
+
+Epoch 26/100
+Train Loss: 84.4522 (Obj: 0.0941,   Loc: 84.3581)
+Val Loss: 72.2580 (Obj: 0.0909,   Loc: 72.1671)
+
+Epoch 27/100
+Train Loss: 93.5181 (Obj: 0.0934,   Loc: 93.4247)
+Val Loss: 72.2511 (Obj: 0.0909,   Loc: 72.1602)
+
+Epoch 28/100
+Train Loss: 99.4866 (Obj: 0.0933,   Loc: 99.3933)
+Val Loss: 72.2497 (Obj: 0.0909,   Loc: 72.1588)
+
+Epoch 29/100
+Train Loss: 87.7810 (Obj: 0.0927,   Loc: 87.6884)
+Val Loss: 72.2808 (Obj: 0.0910,   Loc: 72.1898)
+
+Epoch 30/100
+Train Loss: 87.5506 (Obj: 0.0927,   Loc: 87.4579)
+Val Loss: 72.2823 (Obj: 0.0908,   Loc: 72.1915)
+
+Early stopping at epoch 30. Best Val Loss: 72.4376
+49.63658656279246
